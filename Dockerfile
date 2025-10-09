@@ -1,4 +1,4 @@
-FROM golang:1.25.1-alpine3.22
+FROM golang:1.25.2-alpine3.22
 
 RUN go get github.com/Jeffail/gabs
 RUN go get github.com/bitly/go-simplejson
